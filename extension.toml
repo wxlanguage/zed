@@ -1,0 +1,16 @@
+id = "wx"
+name = "WX"
+version = "0.0.1"
+schema_version = 1
+authors = ["Artem Melnyk"]
+description = "WX language support: syntax highlighting and LSP diagnostics, completions, and formatting"
+repository = "https://github.com/wxlanguage/zed"
+
+[grammars.wx]
+repository = "https://github.com/wxlanguage/zed"
+rev = "PLACEHOLDER"
+path = "grammar"
+
+[language_servers.wx]
+name = "WX Language Server"
+languages = ["WX"]

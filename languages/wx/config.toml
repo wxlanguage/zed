@@ -1,0 +1,5 @@
+name = "WX"
+grammar = "wx"
+path_suffixes = ["wx"]
+line_comments = ["// "]
+tab_size = 2
