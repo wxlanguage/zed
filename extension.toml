@@ -8,7 +8,7 @@ repository = "https://github.com/wxlanguage/zed"
 
 [grammars.wx]
 repository = "https://github.com/wxlanguage/zed"
-rev = "PLACEHOLDER"
+rev = "76575be14a5d639ed101b659eaeddba066922dd0"
 path = "grammar"
 
 [language_servers.wx]
