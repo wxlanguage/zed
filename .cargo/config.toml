@@ -1,8 +1,0 @@
-[build]
-# Incremental compilation's lock file can't be created over a UNC/network
-# path (e.g. `\\wsl.localhost\...` when Zed on Windows builds this extension
-# from a WSL-hosted remote project) — Windows file-locking over SMB/9P
-# doesn't support it, and rustc fails with "Incorrect function." Disabling
-# it here means it's fixed for anyone building this crate, not just via a
-# local environment variable.
-incremental = false

@@ -1,4 +1,6 @@
-use zed_extension_api::{self as zed, settings::LspSettings, LanguageServerId, Result, Worktree};
+use zed_extension_api::{
+	self as zed, LanguageServerId, Result, Worktree, settings::LspSettings,
+};
 
 struct WxExtension;
 

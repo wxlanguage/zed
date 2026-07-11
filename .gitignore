@@ -1,2 +1,8 @@
 target/
 node_modules/
+
+# Zed's own build output when installed as a dev extension: it clones
+# `[grammars.wx]` into `grammars/` and compiles both it and `src/lib.rs`
+# to `.wasm` locally, every time, from source. Never commit these.
+grammars/
+*.wasm
